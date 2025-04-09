@@ -23,6 +23,6 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_RED_ROCK_0563EFB00 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "C:\Users\MOUNIKA\Desktop\My_First_WebPage"              # Your HTML/JS/CSS are in the root
+          app_location: "/"              # Your app is in root
           api_location: ""               # No API
-          output_location: "https://red-rock-0563efb00.6.azurestaticapps.net"           # No build step, deploy as-is
+          output_location: "/"           # Also root, since no build
